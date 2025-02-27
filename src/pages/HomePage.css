@@ -1,0 +1,179 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #282c34;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  color: #61dafb;
+}
+
+/* Hero Section Styles */
+.hero {
+  background: url('https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #21a1f1;
+}
+
+/* Features Section Styles */
+.features {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+  padding: 80px 20px;
+  background-color: #fff;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+}
+
+.testimonial-card p {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+}
+
+.testimonial-card h4 {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #333;
+}
+
+/* CTA Section Styles */
+.cta-section {
+  padding: 80px 20px;
+  background-color: #61dafb;
+  color: white;
+}
+
+.cta-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.cta-section .cta-button {
+  background-color: white;
+  color: #61dafb;
+}
+
+.cta-section .cta-button:hover {
+  background-color: #f9f9f9;
+}
+
+/* Footer Styles */
+.footer {
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
